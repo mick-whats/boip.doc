@@ -1,0 +1,42 @@
+{
+  "name": "boip.doc",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=8.3.0"
+  },
+  "description": "",
+  "keywords": [
+    "Document",
+    "hify"
+  ],
+  "scripts": {
+    "build": "hify build -d docs -f",
+    "brousersync:start": "browser-sync start --server 'docs' --files='docs' --port 3003 -w",
+    "build:watch": "chokidar \"src/**/*.{js,md,css}\" -c \"npm run build\""
+  },
+  "dependencies": {
+    "hify": "^0.0.3",
+    "marked": "^0.6.2",
+    "prettier": "^1.17.0",
+    "xza": "^2.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.1",
+    "eslint-plugin-jest": "^22.4.1",
+    "eslint-plugin-jsdoc": "^4.8.3",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "private": true,
+  "homepage": "https://github.com/mick-whats/boip.doc",
+  "bugs": "https://github.com/mick-whats/boip.doc/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mick-whats/boip.doc.git"
+  },
+  "license": "MIT",
+  "author": "mick-whats"
+}
