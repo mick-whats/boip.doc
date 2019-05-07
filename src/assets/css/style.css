@@ -91,3 +91,25 @@ blockquote p {
   margin: 0;
   padding: 0;
 }
+
+/* Color Theme Swatches in Hex 
+.dark-wood-planks-background--1-hex { color: #F2F2F2; }
+.dark-wood-planks-background--2-hex { color: #BF9B7A; }
+.dark-wood-planks-background--3-hex { color: #8C675A; }
+.dark-wood-planks-background--4-hex { color: #261C1A; }
+.dark-wood-planks-background--5-hex { color: #59433E; }
+
+  Color Theme Swatches in RGBA
+.dark-wood-planks-background--1-rgba { color: rgba(242, 242, 242, 1); }
+.dark-wood-planks-background--2-rgba { color: rgba(191, 154, 122, 1); }
+.dark-wood-planks-background--3-rgba { color: rgba(140, 103, 89, 1); }
+.dark-wood-planks-background--4-rgba { color: rgba(38, 27, 25, 1); }
+.dark-wood-planks-background--5-rgba { color: rgba(89, 66, 61, 1); }
+
+  Color Theme Swatches in HSLA
+.dark-wood-planks-background--1-hsla { color: hsla(0, 0, 95, 1); }
+.dark-wood-planks-background--2-hsla { color: hsla(28, 35, 61, 1); }
+.dark-wood-planks-background--3-hsla { color: hsla(16, 21, 45, 1); }
+.dark-wood-planks-background--4-hsla { color: hsla(11, 19, 12, 1); }
+.dark-wood-planks-background--5-hsla { color: hsla(11, 18, 29, 1); }
+*/
